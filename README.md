@@ -46,6 +46,7 @@ Does not require OHSU login
 ## Tools
 
 * SSH clients
+    * [MobaXterm](http://mobaxterm.mobatek.net/), standalone client
     * [PuTTY](http://www.putty.org/), standalone client
     * [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo), Chrome app
     * [FireSSH](https://addons.mozilla.org/en-US/firefox/addon/firessh/), Firefox add-on
