@@ -26,6 +26,16 @@ Requires OHSU login
     * [Command reference](http://research.cs.wisc.edu/htcondor/manual/v8.4/11_Command_Reference.html)
     * [Manual](http://research.cs.wisc.edu/htcondor/manual/v8.4/index.html)
 
+
+## File systems
+
+Location | Speed | Backup | Size
+---|---|---|---
+`/home/users` | Slow | Backed up nightly | 10 GB
+`/home exacloud/lustre1` | Faster | Not backed up |
+`/home exacloud/lustre1/biostat` | Faster | Not backed up |
+`/mnt/scratch` | Fastest | Not backed up | 
+
     
 ## Linux resources
 
