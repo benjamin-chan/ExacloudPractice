@@ -29,12 +29,11 @@ Requires OHSU login
 
 ## File systems
 
-Location | Speed | Backup | Size
----|---|---|---
-`/home/users` | Slow | Backed up nightly | 10 GB
-`/home exacloud/lustre1` | Faster | Not backed up |
-`/home exacloud/lustre1/biostat` | Faster | Not backed up |
-`/mnt/scratch` | Fastest | Not backed up | 
+Location | Sharing | Speed | Backup | Quota
+---|---|---|---|---
+`/home/users/<username>` | Not shared | Slow | Backed up nightly | 10 GB
+`/home/exacloud/lustre1/users/<username>` | Not shared | Faster | Not backed up |
+`/home/exacloud/lustre1/biostat` | Shared | Faster | Not backed up |
 
     
 ## Linux resources
