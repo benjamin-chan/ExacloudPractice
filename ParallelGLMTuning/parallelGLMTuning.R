@@ -55,6 +55,7 @@ runClusters <- function (workers, D) {
 }
 
 # Run with various number of workers
+n16 <- runClusters(16, D)
 n12 <- runClusters(12, D)
 n8  <- runClusters(8 , D)
 n6  <- runClusters(6 , D)
@@ -67,7 +68,7 @@ n1  <- runClusters(1 , D)
 # Summarize
 summary <- data.table(models = J,
                       size = N,
-                      rbind(n12, n8, n6, n5, n4, n3, n2, n1),
+                      rbind(n16, n12, n8, n6, n5, n4, n3, n2, n1),
                       timestamp = Sys.time(),
                       nodename = Sys.info()["nodename"],
                       machine = Sys.info()["machine"],
