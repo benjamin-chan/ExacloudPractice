@@ -8,7 +8,7 @@ sessionInfo()
 
 # Set up the test data
 J <- 100  # This is the number of models to fit
-N <- 1e6  # This is the size of the dataset
+N <- 2.5e5  # This is the size of the dataset
 i <- rep(1:N, each=J)
 D <- data.table(i,  # id
                 j = rep(1:J, N),  # index repitition
